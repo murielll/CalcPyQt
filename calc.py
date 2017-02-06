@@ -22,7 +22,6 @@ def ButtonClick(CalcButton):
             except SyntaxError:
                 w.DisplayCalc.setText("Error occured!")
             ExpressionString = ""
-            return
         else:
             if not ExpressionString:
                 w.DisplayCalc.clear()
